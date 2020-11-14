@@ -3,12 +3,12 @@ node_js:
 - '12'
 branches:
   only:
-  - master
+  - main
 deploy:
   provider: heroku
   skip_cleanup: true
   on:
-    branch: master
+    branch: main
   api_key:
     secure: ZVIphAhlyHO01Mw9hO2jnFJzkQsydJO+OPs403ofuHTDzOqrzP772PrIuSU5vMsuajK4VEMOWRJiu7AMSeDxcSyHq2SUNyYKXyeAFmQA4N0tIA4O3YfDBcIUEHRt9KMJMek70WMzs+9B7scnIgvrDvd6z/FVaMUxCkDOV9UyHqGvdUKqeYVW9BxvfmQ8lEN08zmvMfngKFZdaJmSOZNt3Sz6zslhaP7uJXdsYVc+aNKuZzicPbmA1tm0s1/bHbhKPGRJqR1jH+jspDXxDK/GXVIC7Xx4Yg6uXSSD24Awnydo/nQ+t9sDn9KNNkOlACcf0oe5rFcdLe2x/0rnXf1sul0hy5sS5UEVDZ1K+90qbLXzBfDsT2hSD9nLcnE62czH5HRT+NA94s/UUNr8BtuePvOSI0c3x2Sr8bjHEUCKE1j654FhkIzAf00tiLr5Nwg6itYgtEyYoY/WyW5Ntr/h1yYOgACHPwH/ckIAZS5SFZxibHqTlRUSiy2OGbWYTjm/hMaLAVMV2tErtLhWq/6N/FVh6+Ip2CPHUUsxNlfq+uPAaId2OZ+RvLL5m3yWZu0O+HYpu9GPgLqEsAXjLJYme4OaOFMEjfkE191PTAeHXdvjcVaN85nFSoJNPoYBXnUqoqaQrKLGLzEPdqIZIeRepVpfEA6CEkpiLN7RIDKkRVw=
   app: banking-demo-ojeda

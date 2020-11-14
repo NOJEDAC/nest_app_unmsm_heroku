@@ -38,7 +38,7 @@ $ brew tap heroku/brew && brew install heroku
 ```
 
 ## Heroku CLI
-
+ 
 ```
 $ heroku --version
 $ heroku logout

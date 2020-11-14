@@ -1,17 +1,17 @@
 language: node_js
 node_js:
-  - '12'
+- '12'
 branches:
   only:
-    - master
+  - master
 deploy:
   provider: heroku
   skip_cleanup: true
   on:
     branch: master
   api_key:
-    secure: UsUOU6COje2gng7eewvxQnneXr+sMa0gWcXLz1Z1MCdc5nqCMdhip5CGEvpWLN7mmTlKbZz5IAgLE+vCjAqcUbZ7Y5Vt6LCHWELy6XgdyV1p0REC23lURPLTYlmTD4IDk6Il875jahbg91BRxDZe49XeRaZM9IaVagzxSRHrPNGc1tSYPuQ7+WK1GmV0x12VW99KjmqFNbUVlkqGb8AAtMcRY/ZQ/Xf5qUqnDejruSkLIJP9tuTleudI9LM7r9nF3Y0R7MQIijNFMitTkvlLNCoOzOwvn8TiKV+H2omPUFPnBguRkwlqP5dVcF2lbc6lzbVaqAmP/tkmbP68lNjNPkWWOGtMstUEfgylzoOW/SgOiAuxKLcEsTVgBvqNXSuTlc8MzgxAfDDXxq0cv7R/25AsX0KOWN/nJIagil9PxS+fCu6HXi4OGs8xnMN3HxOXHiP2D93JFleQhwLsiGEABM9hhCXX6uTkPFjvy8fWKhOkf9RT9xfNs5iyPvlTxzrNIOjeEgb/Fvhw9TSceqVvBX/lpwhdQQ3ukXEbk1aRNBdtvjeR3xTIGoo1iKbdTzE6R7ediglzivl139ejYMF4Z26qjCZSFJIKvlJkVojiif8/bmSTCGL70JUWuvJeqM84tYy17XNEVA5nbcOz+CFMAR1rt78BtDPgEt/JsrYUSJ8=
-  app: banking-nest-unmsm-heroku
+    secure: ZVIphAhlyHO01Mw9hO2jnFJzkQsydJO+OPs403ofuHTDzOqrzP772PrIuSU5vMsuajK4VEMOWRJiu7AMSeDxcSyHq2SUNyYKXyeAFmQA4N0tIA4O3YfDBcIUEHRt9KMJMek70WMzs+9B7scnIgvrDvd6z/FVaMUxCkDOV9UyHqGvdUKqeYVW9BxvfmQ8lEN08zmvMfngKFZdaJmSOZNt3Sz6zslhaP7uJXdsYVc+aNKuZzicPbmA1tm0s1/bHbhKPGRJqR1jH+jspDXxDK/GXVIC7Xx4Yg6uXSSD24Awnydo/nQ+t9sDn9KNNkOlACcf0oe5rFcdLe2x/0rnXf1sul0hy5sS5UEVDZ1K+90qbLXzBfDsT2hSD9nLcnE62czH5HRT+NA94s/UUNr8BtuePvOSI0c3x2Sr8bjHEUCKE1j654FhkIzAf00tiLr5Nwg6itYgtEyYoY/WyW5Ntr/h1yYOgACHPwH/ckIAZS5SFZxibHqTlRUSiy2OGbWYTjm/hMaLAVMV2tErtLhWq/6N/FVh6+Ip2CPHUUsxNlfq+uPAaId2OZ+RvLL5m3yWZu0O+HYpu9GPgLqEsAXjLJYme4OaOFMEjfkE191PTAeHXdvjcVaN85nFSoJNPoYBXnUqoqaQrKLGLzEPdqIZIeRepVpfEA6CEkpiLN7RIDKkRVw=
+  app: banking-demo-ojeda
 notifications:
   email:
     on_failure: change

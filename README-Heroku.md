@@ -76,7 +76,7 @@ $ travis --version
 $ travis logout --pro
 $ travis login --pro --github-token {GITHUB_TOKEN}
 $ travis encrypt --pro {HEROKU_API_KEY}
-$ travis encrypt --pro {HEROKU_API_KEY} --add deploy.api_key
+$ travis encrypt --pro {HEROKU_API_KEY} --add deploy.api_key 
 ```
 
 ## TIP
